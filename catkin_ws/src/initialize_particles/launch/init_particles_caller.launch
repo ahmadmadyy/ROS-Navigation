@@ -1,0 +1,8 @@
+<launch>
+\<!--
+    <node pkg='initialize_particles' type='init_particles_caller.py' name="service_client" output="screen">
+    </node>
+    -->
+    <node pkg='initialize_particles' type='square_move.py' name="move_robot" output="screen">
+    </node>
+</launch>

@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="tf" type="static_transform_publisher" name="broadcaster" 
+          args="10 10 10 10 10 10 /base_link /kinect_link 100">
+    </node>
+</launch>
